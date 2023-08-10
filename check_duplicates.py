@@ -14,7 +14,7 @@ def check_duplicates(l: list) -> str:
         return "No duplicates"
 
 
-fruits = ['apple', 'orange', 'banana', 'apple']
-names = ['Yoda', 'Moses', 'Joshua', 'Mark']
+fruits = ["apple", "orange", "banana", "apple"]
+names = ["Yoda", "Moses", "Joshua", "Mark"]
 print(check_duplicates(fruits))
 print(check_duplicates(names))

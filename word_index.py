@@ -13,7 +13,7 @@ def word_index(l: list) -> int:
     else:
         for x in l:
             if max(words) == len(x):
-                return (l.index(x))
+                return l.index(x)
 
 
 words1 = ["Hate", "remorse", "vengeance"]

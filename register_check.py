@@ -10,16 +10,11 @@ function should return the number of students in school.
 def register_check(register: dict) -> int:
     count = 0
     for k, v in register.items():
-        if v == 'yes':
+        if v == "yes":
             count += 1
-    return(count)
+    return count
 
 
-register = {
-    'Michael':'yes',
-    'John': 'no',
-    'Peter':'yes',
-    'Mary': 'yes'
-    }
+register = {"Michael": "yes", "John": "no", "Peter": "yes", "Mary": "yes"}
 
 print(register_check(register))
