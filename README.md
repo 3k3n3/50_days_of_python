@@ -9,3 +9,5 @@ This note will be updated upon completion of the challenge with valuable insight
 ChatGPT and StackOverflow are not allowed. I have instead chosen to read up concepts from docs and/or tutorials from GeeksForGeeks, w3schools et al.
 
 See you on Day 50.
+
+So far, I've particularly found this [challenge](python_snakes.py) interesting, I've just found out there is a whole [Emoji](https://pypi.org/project/emoji/) library in python.

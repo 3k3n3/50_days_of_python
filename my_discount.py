@@ -8,14 +8,14 @@ The function should return the price after the discount.
 
 
 def my_discount():
-    try:
-        price = int(input("Enter price: "))
-        discount = int(input("Enter discount (%): "))
-    except ValueError:
-        print("Enter Valid Number")
-        my_discount()
-
-    return price - (15 / 100 * price)
+    while True:
+        try:
+            price = int(input("Enter price: "))
+            discount = int(input("Enter discount (%): "))
+        except ValueError:
+            print("Enter Valid Number")
+        else:
+            return price - (discount / 100 * price)
 
 
 print(my_discount())
