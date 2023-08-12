@@ -13,6 +13,8 @@ def add_reverse(arr1: list, arr2: list) -> list:
         new = []
         for i in range(len(arr1)):
             new.append(arr1[i] + arr2[i])
+            # reverses new list after each addition
+            # new.reverse()
     new.reverse()
     return new
 
