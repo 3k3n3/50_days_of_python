@@ -9,8 +9,10 @@ as a thousand separator for readability.
 
 
 def thousand_separator(numbers: list) -> list:
+    thousands = []
     for n in numbers:
-        print(f"{n:,}")
+        thousands.append(f"{n:,}")
+    return thousands
 
 
 nums = [1000000, 2356989, 2354672, 9878098, 1000, 64538]
