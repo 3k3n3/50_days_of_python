@@ -20,7 +20,7 @@ names_age = {
 }
 
 
-def your_age():
+def your_age() -> str:
     while True:
         try:
             name = input("Enter your name: ").lower()
