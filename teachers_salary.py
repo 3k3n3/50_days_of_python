@@ -22,7 +22,6 @@ def your_salary():
             # Iterate through charaters in name to check if number/digit present
             if any(i.isdigit() for i in name):
                 raise TypeError()
-                print("jiij")
             periods = int(input("Number of Periods: "))
         except TypeError:
             print("Enter valid details")
