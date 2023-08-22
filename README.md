@@ -13,3 +13,8 @@ See you on Day 50.
 So far, I've particularly found this [challenge](python_snakes.py) interesting, I've just found out there is a whole [Emoji](https://pypi.org/project/emoji/) library in python.
 
 Explored the [any()](https://www.w3schools.com/python/ref_func_any.asp) function [here](teachers_salary.py). It's one function I haven't really used before. Very handy for testing for certain conditions for items in an iterable.
+
+Half way now.
+So far I've refreshed on string formatting and string methods. List & dictionary comprehension.
+
+Revisited [Set operations] for this [challenge](difference.py).
