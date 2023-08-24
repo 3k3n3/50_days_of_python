@@ -14,7 +14,8 @@ So far, I've particularly found this [challenge](python_snakes.py) interesting, 
 
 Explored the [any()](https://www.w3schools.com/python/ref_func_any.asp) function [here](teachers_salary.py). It's one function I haven't really used before. Very handy for testing for certain conditions for items in an iterable.
 
-Half way now.
 So far I've refreshed on string formatting and string methods. List & dictionary comprehension.
 
-Revisited [Set operations] for this [challenge](difference.py).
+I have also explored [getpass](https://docs.python.org/3/library/getpass.html) [here](hide_password.py) and [pwinput](https://pypi.org/project/pwinput/) [here](create_user.py). Both modules provide interesting ways to handle secret inputs (eg passwords).
+
+Revisited [Set operations](https://www.freecodecamp.org/news/python-set-operations-explained-with-examples/) for this [challenge](difference.py).
